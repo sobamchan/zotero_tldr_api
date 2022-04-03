@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "zotero_tldr_api"
+version = "0.1.0"
+description = ""
+authors = ["sobamchan <oh.sore.sore.soutarou@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+torch = "^1.11.0"
+transformers = "^4.17.0"
+requests = "^2.27.1"
+
+[tool.poetry.dev-dependencies]
+neovim = "^0.3.1"
+ipython = "^8.2.0"
+black = "^22.3.0"
+isort = "^5.10.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

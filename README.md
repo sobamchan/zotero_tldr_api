@@ -1,5 +1,7 @@
 Read top 50 items from your zotero lib, generate summary for each, save as note.
 
+![alt text](sample_image.png "Sample")
+
 # Prepare
 
 ## Install dependencies.

@@ -5,16 +5,18 @@ description = ""
 authors = ["sobamchan <oh.sore.sore.soutarou@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
-torch = "^1.11.0"
-transformers = "^4.17.0"
-requests = "^2.27.1"
+python = "^3.9"
+schnitsum = "^0.4.1"
+pyzotero = "^1.5.5"
 
 [tool.poetry.dev-dependencies]
 neovim = "^0.3.1"
 ipython = "^8.2.0"
 black = "^22.3.0"
 isort = "^5.10.1"
+
+[tool.poetry.group.dev.dependencies]
+pudb = "^2022.1.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]

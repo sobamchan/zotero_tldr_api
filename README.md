@@ -11,13 +11,11 @@ poetry install
 poetry shell
 ``````
 
-## Get a summarization model.
-
-Contact me.
-
 
 # Run
 
 ```
-python main.py --model-path ./model.state --user-id zotero_user_id --zotero-key zotero_user_key
+python main.py --model-name sobamchan/bart-large-scitldr --user-id zotero_user_id --zotero-key zotero_user_key
 ```
+
+For other options for the model, see [here](https://github.com/sobamchan/schnitsum/).
